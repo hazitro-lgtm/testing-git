@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Great Purge",
+        "author": "Michael Fuerry",
+        "description": "Government of the US is taken over dangerous cult of youth who are determened to exterminate all people above 30 years old",
+        "price": 20
+    },
+    {
+        "name": "Mouthless monster",
+        "author": "Isacc Bagleman",
+        "description": "Tragic story of a little monster who was born without a mouth and his everyday struggles",
+        "price": 15
+    },
+    {
+        "name": "Last One",
+        "author": "Adam Jugoski",
+        "description": "After nuclear apocalypse Michael Junbo woke up all alone in his little bunker. Will he manage to survive? Find out by reading",
+        "price": 35
+    },
+    {
+        "name": "Code Geass: Lelouch's Rebelion",
+        "author": "C.C.",
+        "description": "Historical book featuring 2 attempts of liberating Japan of Britannian occupation during 2018-2020 a. t. m. as well formation of UFN, reign of 99th Lelouch 'Demon' Emperor and period of 'Beautiful tomorrow'",
+        "price": 99
+    },
+    {
+        "name": "I am Kira",
+        "author": "Light Yagami",
+        "description": "Autobiography of a man who got his hands on Death Note and decided to become a god of justice",
+        "price": 99
+    }
+]

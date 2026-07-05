@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>Local Library</title>
+    <link rel="stylesheet" href="./lib-style.css">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="./bookmngr.js" defer></script>
+</head>
+<body>
+    <h1>Library</h1>
+    <a href="../index.html">(Back to main page)</a>
+    <div id="bookshelf" class="bookshelf"></div>
+    <div class="linear-container" style="align-items: center;">
+        <button class="side-bar-btn" id="sidebar">></button>
+        <div class="new-book-form" id="addition-form">
+            <input id="book-name" type="text" placeholder="Book title" disabled>
+            <input id="book-author" type="text" placeholder="Author's name" disabled>
+            <textarea id="book-desc" type="text" placeholder="Book short description" disabled></textarea>
+            <input id="book-price" type="number" placeholder="Price" disabled>
+            <button class="basic-btn" id="add-book-btn" disabled>Add</button>
+        </div>
+    </div>
+</body>

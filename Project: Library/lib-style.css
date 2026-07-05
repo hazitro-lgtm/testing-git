@@ -1,0 +1,61 @@
+.bookshelf{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+}
+.book-card{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: auto;
+    background-color: purple;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.book-card h4{
+    margin-top: 1px;
+}
+.book-card p{
+    text-align: left;
+    padding: 5px;
+}
+.book-card .book-price{
+    color: rgb(94, 252, 94);
+    border: 1px solid white;
+    width: 50%;
+    align-self: center;
+}
+.new-book-form{
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    margin: 15px;
+    margin-top: 20px;
+    width: 50%;
+}
+.new-book-form input{
+    font-size: 18px;
+    height: 2rem;
+}
+#book-desc{
+    font-size: 18px;
+    height: 6rem;
+    resize: vertical;
+    padding-top: 1rem;
+    box-sizing: border-box;
+}
+.new-book-form button{
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+.side-bar-btn{
+    width: 2rem;
+    height: 271px;
+    margin-top: 0px;
+    background-color: aliceblue;
+    color: black;
+}
