@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(19, 131, 122);
+    color: white;
+    text-align: center;
+}
+.linear-container{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    height: auto;
+}
+.linear-container p{
+    margin-right: 45%;
+    font-size: 18px;
+    text-shadow: 1px 0px 10px rgb(235, 215, 34);
+}
+.basic-btn{
+    width: 125px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(224, 143, 160);
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px 15px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: black;
+}
+td, th{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+th{
+    background-color: rgb(128, 255, 196);
+    padding: 5px 10px;
+}
+tr:nth-child(even) td{
+    background-color: rgb(109, 255, 187);
+}
+tr:nth-child(odd) td{
+    background-color: rgb(19, 255, 145);
+}
+thead{
+    font-weight: bold;
+}
+tbody{
+    font-style: italic;
+}
+tfoot{
+    font-weight: bold;
+}
+.highlight-col{
+    border: 5px solid rgb(56, 102, 79);
+}
+td img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    object-fit: cover;
+}
+caption{
+    padding: 10px;
+    font-size: 22px;
+    color: white;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgb(5, 32, 119, 0.7);
+    width: 20rem;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 5rem;
+    color: yellow;
+    padding: 5px;
+}
+.card h2{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.card p{
+    width: 100%;
+    margin-top: 0.5rem;
+}
